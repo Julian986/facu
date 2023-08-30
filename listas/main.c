@@ -4,10 +4,13 @@
 int main()
 {
     /// Declaro Lista
-    // nodo* lista
+     nodo* lista = inicLista();
+     nodo* nuevo = crearNodo(stCliente cliente);
+     lista = agregarAlPrincipio(lista, nuevo);
+     muestraLista(lista);
 
     /// Inicializo lista
-    // lista = inicLista();
+
 
     /// Creo la lista y devuelvo el inicio
     // lista = cargarLista(lista);
