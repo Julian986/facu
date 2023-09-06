@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1693946523 source:c:\users\julián\onedrive\escritorio\programacion c\2do cuatri\practica\practica\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+
+1693946703 c:\users\julián\onedrive\escritorio\programacion c\2do cuatri\practica\practica\cliente.h
+
+1693946156 source:c:\users\julián\onedrive\escritorio\programacion c\2do cuatri\practica\practica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"cliente.h"
+
+1693949362 source:c:\users\julián\onedrive\escritorio\programacion c\2do cuatri\practica\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+
+1693946703 c:\users\julián\onedrive\escritorio\programacion c\2do cuatri\practica\cliente.h
+
+1693956967 source:c:\users\julián\onedrive\escritorio\programacion c\2do cuatri\practica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"cliente.h"
+	"archivoClientes.h"
+
+1693958092 c:\users\julián\onedrive\escritorio\programacion c\2do cuatri\practica\archivoclientes.h
+	"cliente.h"
+
+1693958513 source:c:\users\julián\onedrive\escritorio\programacion c\2do cuatri\practica\archivoclientes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+	"archivoClientes.h"
+
+1693960252 source:c:\users\julián\onedrive\escritorio\programacion c\2do cuatri\practica\listacliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"listaCliente.h"
+
+1693960252 c:\users\julián\onedrive\escritorio\programacion c\2do cuatri\practica\listacliente.h
+	"cliente.h"
+
