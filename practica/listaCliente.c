@@ -21,9 +21,9 @@ nodo* agregarAlPrincipio(nodo* lista, nodo* nuevo){
 }
 
 void muestraNodo(nodo* nodoCliente){
-    printf("\n _____%p", nodoCliente);
+   // printf("\n _____%p", nodoCliente); direccion de memoria del nodo actual
     muestraUnCliente(nodoCliente->dato);
-    printf("\n >>>>> %p", nodoCliente->sig);
+    // printf("\n >>>>> %p", nodoCliente->sig); direccion de memoria del nodo siguiente
 }
 
 void muestraLista(nodo* lista){
@@ -31,5 +31,20 @@ void muestraLista(nodo* lista){
     while(aux){
         muestraNodo(aux);
         aux = aux->sig;
+    }
+}
+
+void muestraListaRecursiva(nodo* lista){
+    if(lista){
+        muestraNodo(lista);
+        muestraListaRecursiva(lista->sig);
+    }
+}
+
+int cuentaNodos(nodo* lista){
+    int cont = 0;
+    nodo* aux = lista;
+    while(aux){
+
     }
 }
