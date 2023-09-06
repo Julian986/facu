@@ -4,6 +4,9 @@
 #include "archivoClientes.h"
 #define AR_CLIENTES "clientes.dat"
 #include "listaCliente.h"
+#define ESC 27
+
+nodo * cargarLista(nodo * lista);
 
 int main()
 {
@@ -16,6 +19,8 @@ int main()
 
     nodo * lista = inicLista();
     lista = cargarLista(lista);
+    //muestraLista(lista);
+    muestraListaRecursiva(lista);
 
 }
 
@@ -34,3 +39,6 @@ nodo * cargarLista(nodo * lista){
     }
     return lista;
 }
+
+
+
